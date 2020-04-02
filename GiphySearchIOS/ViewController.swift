@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var searchBar: UISearchBar!
     
     var network = GifNetwork()
-    
+    var gifs: [Gif] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,9 +30,21 @@ class ViewController: UIViewController {
         searchBar.returnKeyType = .search
     }
     
-    func searchGifs(searchText: String) {
-        network.fetchGifs(searchTerm: searchText)
+//    func searchGifs(searchText: String) {
+//        network.fetchGifs(searchTerm: searchText)
+//    }
+//
+    func fetchGifs(searchText: String) {
+        network.fetchGifs(searchTerm: searchText) { results in
+            if results != nil {
+                print(results!.gifs.count)
+                self.gifs = results!.gifs
+                print(self.gifs)
+                self.tableView.reloadData()
+            }
+        }
     }
+    
 
 
 }
@@ -62,7 +74,7 @@ extension ViewController: UISearchTextFieldDelegate {
         textField.resignFirstResponder()
         if textField.text != nil {
             print(textField.text!)
-            searchGifs(searchText: textField.text!)
+            fetchGifs(searchText: textField.text!)
         }
         return true
     }
