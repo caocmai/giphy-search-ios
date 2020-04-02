@@ -6,7 +6,7 @@ The purpose of this tutorial is to learn about fetching gifs data from the [Giph
 
 ### Features
 * Search Screen - input desired gifs to search for
-* Gifs Screen - displays all gifs as UITableView
+* Gifs Screen - displays all found gifs as UITableView
 
 ### Basic App Walk-through
 ![](gifSearchWalk.gif)
@@ -20,7 +20,7 @@ Project code can be viewed locally  and run on Xcode's simulator by cloning or f
 * [Xcode - 11.3.1](https://developer.apple.com/xcode/) - The IDE used
 * [Swift - 5.1.4](https://developer.apple.com/swift/) - Programming Language
 
-## Author(s)
+## Author
 * Cao Mai - portfolio can be found at:
 https://www.makeschool.com/portfolio/Cao-Mai
 
