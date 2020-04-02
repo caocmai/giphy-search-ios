@@ -25,6 +25,7 @@ class ViewController: UIViewController {
     func setup() {
         tableView.delegate = self
         tableView.dataSource = self
+        tableView.backgroundColor = .black
         searchBar.searchTextField.delegate = self
         searchBar.searchTextField.placeholder = "What's your favorite gif?"
         searchBar.returnKeyType = .search
@@ -54,7 +55,7 @@ class ViewController: UIViewController {
 extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 1
+        return gifs.count
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
@@ -63,6 +64,7 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "gifCell", for: indexPath) as! GifCell
+        cell.gif = gifs[indexPath.row]
         return cell
     }
 }
