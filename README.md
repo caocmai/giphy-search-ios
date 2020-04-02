@@ -1,8 +1,8 @@
 # Giphy-Search-iOS
-Make School's tutorial on fetching and displaying gifs as an iOS app
+Make School's iOS app tutorial on fetching and displaying gifs.
 
 ## About
-The purpose of this tutorial is to learn about fetching data from the [Giphy API](https://developers.giphy.com/)
+The purpose of this tutorial is to learn about fetching gifs data from the [Giphy API](https://developers.giphy.com/) and displaying the fetched gifs in the iOS app.
 
 ### Features
 * Search Screen - input desired gifs to search for
