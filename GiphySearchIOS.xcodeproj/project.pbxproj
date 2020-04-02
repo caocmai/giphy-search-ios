@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2C28E6A624356FAC00BDD5AD /* GifExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C28E6A524356FAC00BDD5AD /* GifExtension.swift */; };
+		2C28E6A82435725500BDD5AD /* GifCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C28E6A72435725500BDD5AD /* GifCell.swift */; };
 		2C9B64C924356E6000FF66EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B64C824356E6000FF66EA /* AppDelegate.swift */; };
 		2C9B64CB24356E6000FF66EA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B64CA24356E6000FF66EA /* SceneDelegate.swift */; };
 		2C9B64CD24356E6000FF66EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B64CC24356E6000FF66EA /* ViewController.swift */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		2C28E6A524356FAC00BDD5AD /* GifExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GifExtension.swift; sourceTree = "<group>"; };
+		2C28E6A72435725500BDD5AD /* GifCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GifCell.swift; sourceTree = "<group>"; };
 		2C9B64C524356E6000FF66EA /* GiphySearchIOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiphySearchIOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C9B64C824356E6000FF66EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C9B64CA24356E6000FF66EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 				2C9B64CA24356E6000FF66EA /* SceneDelegate.swift */,
 				2C9B64CC24356E6000FF66EA /* ViewController.swift */,
 				2C28E6A524356FAC00BDD5AD /* GifExtension.swift */,
+				2C28E6A72435725500BDD5AD /* GifCell.swift */,
 				2C9B64CE24356E6000FF66EA /* Main.storyboard */,
 				2C9B64D124356E6100FF66EA /* Assets.xcassets */,
 				2C9B64D324356E6100FF66EA /* LaunchScreen.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				2C28E6A624356FAC00BDD5AD /* GifExtension.swift in Sources */,
 				2C9B64CD24356E6000FF66EA /* ViewController.swift in Sources */,
+				2C28E6A82435725500BDD5AD /* GifCell.swift in Sources */,
 				2C9B64C924356E6000FF66EA /* AppDelegate.swift in Sources */,
 				2C9B64CB24356E6000FF66EA /* SceneDelegate.swift in Sources */,
 			);
